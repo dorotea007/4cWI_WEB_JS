@@ -1,0 +1,19 @@
+
+        /* ELEMENT Selektor*/
+        div{
+            background-color: blueviolet;
+        }
+
+        /* id Selektor*/
+        #header{
+            font-size: 2rem;
+        }
+
+        /* Klassenselektor*/
+        .subtitle{
+            color: aqua;
+        }
+
+        #text p{
+            background-color: antiquewhite;
+        }
