@@ -1,0 +1,52 @@
+.header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.container1 {
+    background-color: rgb(130, 255, 255);
+    height: 300px;
+    width: 400px;
+    padding: 20px; /* Innenabstand */
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.menu {
+    list-style-type: disc; /*Aufzählungszeichen*/
+    padding-left: 20px; /*Abstand für die Punkte*/
+}
+
+.pinkbox {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.purplebox {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+.longbox {
+    background-color: rgb(129, 183, 227);
+    height: 150px;
+    display: flex; /* Flexbox Layout, damit die Boxen nebeneinander angeordnet werden */
+    flex-direction: row-reverse; /* Horizontale Anordnung */
+    align-items: center;
+}
+
+.minibox {
+    background-color: rgb(60, 131, 183);
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+.hidden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pink {
+    background-color: pink;
+    position: relative;
+    height: 350px;
+    width: 350px;
+}
+
+.purple1, .purple2 {
+    background-color: purple;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+}
+
+.purple1 {
+    right: 0;
+}
+
+.purple2 {
+    left: 0;
+}
+
+.violet {
+    background-color: violet;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+.black {
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+}
