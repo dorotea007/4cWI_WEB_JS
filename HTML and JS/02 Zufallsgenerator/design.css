@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(245, 222, 255);
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #b565c8;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #b565c8; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8a42a3;
+}
+
+.box{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#output{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   font-weight: 800;
+   font-size: 2em;
+   background: white;
+   color: #8a42a3; 
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
