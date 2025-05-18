@@ -1,32 +1,25 @@
+import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router"; 
-
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from './App';
-import Page2 from './components/pages/Page2';
+} from "react-router";
 import Page1 from "./components/pages/Page1";
-
+import Page2 from "./components/pages/Page2";
+import './index.css';
+ 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Page1 />, 
+    element: <Page1 />,
   },
   {
     path: "/p2",
     element: <Page2 />,
   },
-  {
-    path: "/super",
-    element: <Page1 />,
-  },
 ]);
-
+ 
 const root = document.getElementById("root");
-
+ 
 ReactDOM.createRoot(root).render(
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
 );
-

@@ -1,4 +1,4 @@
-import React from 'react';
+import './App.css';
 import Exercise1 from './components/pages/Exercise1';
 import Exercise2 from './components/pages/Exercise2';
 import Page1 from './components/pages/Page1';
